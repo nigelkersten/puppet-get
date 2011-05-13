@@ -32,10 +32,10 @@ A more concrete example:
 
 would return the first defined variable of:
 
-  * $data::foo::bar::myvar
-  * $data::foo::myvar
-  * $foo::bar::data::myvar
-  * $foo::data::myvar
+  * `$data::foo::bar::myvar`
+  * `$data::foo::myvar`
+  * `$foo::bar::data::myvar`
+  * `$foo::data::myvar`
 
 and if none of the above are defined, would return 'default value'."
 
