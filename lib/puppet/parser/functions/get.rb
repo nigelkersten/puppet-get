@@ -70,6 +70,8 @@ Puppet::Parser::Functions::newfunction(:get, :type => :rvalue, :doc =>
           value = lookupvar("#{lookup_location}::#{varname}")
         rescue
         end
+      else
+        value = lookupvar("#{lookup_location}::#{varname}")
       end
     end
   end
