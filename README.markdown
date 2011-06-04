@@ -1,3 +1,8 @@
+**NOTE** : Go look at the hugely improved version RI did:
+
+https://github.com/ripienaar/hiera-puppet#readme
+
+
 This is a Puppet function aimed at helping solve the problem of data/model
 separation.
 
